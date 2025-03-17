@@ -1,0 +1,12 @@
+using Owin;
+
+namespace WindowsAuthAppToAADDemo
+{
+	public partial class Startup
+	{
+		public void Configuration(IAppBuilder app)
+		{
+			ConfigureAuth(app);
+		}
+	}
+}
